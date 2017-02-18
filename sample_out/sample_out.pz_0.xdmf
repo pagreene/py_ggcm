@@ -1,0 +1,9 @@
+<?xml version='1.0' ?>
+<Xdmf xmlns:xi='http://www.w3.org/2001/XInclude' Version='2.0'>
+<Domain>
+  <Grid GridType='Collection' CollectionType='Temporal'>
+  <xi:include href='/home/pan56/run/run2013102113_2/target/run2013102113_2.pz_0.000360.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013102113_2/target/run2013102113_2.pz_0.000720.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  </Grid>
+  </Domain>
+</Xdmf>

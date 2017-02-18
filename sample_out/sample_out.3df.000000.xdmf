@@ -1,0 +1,63 @@
+<?xml version='1.0' ?>
+<Xdmf xmlns:xi='http://www.w3.org/2001/XInclude' Version='2.0'>
+<Domain>
+<Grid GridType="Collection" CollectionType="Spatial">
+   <Time Type="Single" Value="3600.14" />
+   <Grid Name="mesh-3df-0" GridType="Uniform">
+     <Topology TopologyType="3DRectMesh" Dimensions="51 51 101"/>
+     <Geometry GeometryType="VXVYVZ">
+     <DataItem Name="VX" DataType="Float" Dimensions="101" Format="HDF">
+        .//home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/crd/x
+     </DataItem>
+     <DataItem Name="VY" DataType="Float" Dimensions="51" Format="HDF">
+        .//home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/crd/y
+     </DataItem>
+     <DataItem Name="VZ" DataType="Float" Dimensions="51" Format="HDF">
+        .//home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/crd/z
+     </DataItem>
+     </Geometry>
+
+     <Attribute Name="rr" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_rr-uid-0x443326e0/rr/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="pp" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_pp-uid-0x44311290/pp/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_vx-uid-0x4432ae40/vx/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vy" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_vy-uid-0x44331a80/vy/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vz" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_vz-uid-0x44343030/vz/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="bx" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_bx-uid-0x4430d0c0/bx/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="by" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_by-uid-0x44361880/by/3d
+       </DataItem>
+     </Attribute>
+     <Attribute Name="bz" AttributeType="Scalar" Center="Cell">
+       <DataItem Dimensions="50 50 100" NumberType="Float" Precision="4" Format="HDF">
+        /home/pan56/run/run2014011519/target/run2014011519.3df.003600_p000000.h5:/mrc_f3_bz-uid-0x442e8ee0/bz/3d
+       </DataItem>
+     </Attribute>
+   </Grid>
+</Grid>
+</Domain>
+</Xdmf>

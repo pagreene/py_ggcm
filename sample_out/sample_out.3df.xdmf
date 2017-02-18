@@ -1,0 +1,20 @@
+<?xml version='1.0' ?>
+<Xdmf xmlns:xi='http://www.w3.org/2001/XInclude' Version='2.0'>
+<Domain>
+  <Grid GridType='Collection' CollectionType='Temporal'>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.000600.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.001200.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.001800.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.002400.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.003000.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.003600.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.004200.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.004800.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.005400.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.006000.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.006600.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.007200.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  <xi:include href='/home/pan56/run/run2013070106/target/run2013070106.3df.007800.xdmf' xpointer='xpointer(//Xdmf/Domain/Grid)'/>
+  </Grid>
+  </Domain>
+</Xdmf>
