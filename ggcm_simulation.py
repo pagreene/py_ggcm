@@ -22,11 +22,11 @@ if 'DISPLAY' not in environ:
 import matplotlib.pyplot as plt
 from matplotlib import rc
 from scipy.interpolate import griddata, interp1d
-from my_basemap import My_Basemap
+from ggcm_basemap import ggcm_Basemap, Img_Array
 from PIL import Image
 from spacepy.coordinates import Coords
 from spacepy.time import Ticktock
-from my_basemap import Img_Array
+#from my_basemap import Img_Array
 
 try:
     from matplotlib.pyplot import streamplot
@@ -46,7 +46,7 @@ rc('axes', labelcolor = 'white', labelweight = '650', edgecolor = 'w')
 rc('xtick', color = 'w')
 rc('ytick', color = 'w')
 
-import My_Re
+import ggcm_re as My_Re
 
 from ggcm_logger import Logged_Object, LOG_DIR
 from ggcm_dir import getDirectory, LOCAL, PWD
@@ -538,7 +538,7 @@ class Earth(Region):
         image.flipVertical()
         
         # Make the map and make it look nice.
-        m = My_Basemap(projection="nsper", lat_0=lat_0, lon_0=lon_0)
+        m = ggcm_Basemap(projection="nsper", lat_0=lat_0, lon_0=lon_0)
         m.warpimage(image, zorder = 0)
         m.drawcoastlines(linewidth = 0.5, color = '0.5', zorder = 1)
         m.drawcountries(linewidth = 0.25, color = '0.5', zorder = 1)

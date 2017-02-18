@@ -107,7 +107,7 @@ class Img_Array(np.ndarray):
         
         return
     
-class My_Basemap(Basemap):
+class ggcm_Basemap(Basemap):
     def warpimage(self, image="bluemarble", scale=None, **kwargs):
         """
         Display an image (filename given by ``image`` keyword) as a map background.
