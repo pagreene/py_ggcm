@@ -1,10 +1,9 @@
 #PY_GGCM
-##Python Interfac to OpenGGCM
+##Python Interface to OpenGGCM
 
 --------------------------------------------------------------------------
 ###Contributors 
-Patrick Greeene
-patrick.anton.greene@gmail.com
+Patrick Greeene (patrick.anton.greene@gmail.com)
 
 -------------------------------------------------------------------------------
 ###Prupose 
