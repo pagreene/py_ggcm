@@ -1,19 +1,19 @@
-#PY_GGCM
-##Python Interface to OpenGGCM
+# PY_GGCM
+## Python Interface to OpenGGCM
 
 --------------------------------------------------------------------------
-###Contributors 
+### Contributors 
 Patrick Greeene (patrick.anton.greene@gmail.com)
 
 -------------------------------------------------------------------------------
-###Prupose 
+### Prupose 
 The purpose of this code is to run the openggcm simulation and convert the output data 
 files into plots that are used by the spaceweather website hosted on fishercat. It is 
 hoped that the system may be extendable to other purposes. Ideas that I've had for 
 extensions or other improvements are contained in the TODO text file.
 
 ---------------------------------------------------------------------------------
-###Usage 
+### Usage 
 To run a standard update of the website, simply run:
 
 ```
@@ -23,7 +23,7 @@ python update.py
 For an example of a basic run in the Magnetosphere, look at/read through `sample.py`.
 
 ---------------------------------------------------------------------------------
-###Files 
+### Files 
 Here is a list of the different files and a general summary of their purpose and
 contents. THIS IS BY NO MEANS COMPREHENSIVE. This should serve the function of helping
 you figure out where to look to answer any detailed questions, as well as giving you a
